@@ -143,8 +143,8 @@ class DetailsActivity : AppCompatActivity() {
     }
 
     private fun hideLoadingIndicator() {
-        if (loadingIndicator != null || loadingIndicator!!.isShowing) {
-            loadingIndicator!!.dismiss()
+        if (loadingIndicator != null && loadingIndicator?.isShowing == true) {
+            loadingIndicator?.dismiss()
         }
     }
 }

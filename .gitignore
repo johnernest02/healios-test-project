@@ -57,3 +57,4 @@ gen-external-apklibs
 *.aab
 *.map
 app/out.map
+.DS_Store
